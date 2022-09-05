@@ -1,0 +1,23 @@
+# Define needed dependency packages:
+depends=()
+depends+=(git)
+depends+=(wget)
+depends+=(curl)
+depends+=(build-essential)
+depends+=(automake)
+depends+=(libtool)
+depends+=(autoconf)
+depends+=(pkg-config)
+depends+=(udev)
+depends+=(fuse)
+depends+=(snap)
+depends+=(snapd)
+
+# Define latest needed debian packages:
+libsquashfuseamd64="libsquashfuse0_0.1.103-3_amd64.deb"
+squashfuseamd64="squashfuse_0.1.103-3_amd64.deb"
+libsquashfusearm64="libsquashfuse0_0.1.103-3_arm64.deb"
+squashfusearm64="squashfuse_0.1.103-3_arm64.deb"
+
+# Define debian mirror:
+debmirror="https://debian.osuosl.org/debian/pool/main/s/squashfuse"
